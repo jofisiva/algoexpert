@@ -61,11 +61,14 @@ static  class  Medium {
 
             int counter = 3 ;
 
+            long sum = lastTwo[0] + lastTwo[1];
             while (counter <= n) {
 
                 counter++;
+                //0,1,1,2,3,5,8,13,21,34
 
                 Long nextFib = lastTwo[0] + lastTwo[1];
+                sum += nextFib;
                 lastTwo[0] = lastTwo[1];
                 lastTwo[1]= nextFib;
 
@@ -73,7 +76,8 @@ static  class  Medium {
 
             }
 
-            return (n>1) ? lastTwo[1] : lastTwo[0];
+           // return (n>1) ? lastTwo[1] : lastTwo[0];
+            return sum;
         }
     }
 
