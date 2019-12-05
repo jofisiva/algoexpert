@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="733a76a9-13d6-46bc-8a7d-a0ac595b2d2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/FindThreeLargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/SpecialArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/SumThreeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/Program_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/Program_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/techknow/algoexpert/easy/Program_4$DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/techknow/algoexpert/easy/Program_4$DoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/algoexpert.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/techknow/algoexpert/easy/Program_4Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/techknow/algoexpert/easy/Program_4Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/HouseOfCells.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/HouseOfCells.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +25,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Utils</find>
-      <find>containsNodeWithValue</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>Assertions</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/main/java/com/techknow/algoexpert</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GCD">
+  <component name="RunManager" selected="Application.HouseOfCells">
     <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.techknow.algoexpert.medium.GCD" />
       <module name="algoexpert" />
@@ -111,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techknow.algoexpert.easy.Palindrome" />
+    <configuration name="HouseOfCells" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techknow.algoexpert.medium.HouseOfCells" />
       <module name="algoexpert" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techknow.algoexpert.easy.*" />
+          <option name="PATTERN" value="com.techknow.algoexpert.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techknow.algoexpert.easy.SelectionSort" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techknow.algoexpert.easy.Palindrome" />
       <module name="algoexpert" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HouseOfCells" />
         <item itemvalue="Application.GCD" />
         <item itemvalue="Application.SumThreeNumbers" />
         <item itemvalue="Application.SpecialArray" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +169,7 @@
       <workItem from="1572812062854" duration="546000" />
       <workItem from="1575489675042" duration="2113000" />
       <workItem from="1575536949570" duration="235000" />
+      <workItem from="1575576976844" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="delete app file">
       <created>1564878614279</created>
@@ -218,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564883164839</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fibnth">
+      <created>1575577140619</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575577140619</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -590,6 +571,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/GCD.java</url>
           <line>15</line>
           <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/HouseOfCells.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/HouseOfCells.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/HouseOfCells.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/HouseOfCells.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/medium/HouseOfCells.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/techknow/algoexpert/easy/Program_4.java</url>
