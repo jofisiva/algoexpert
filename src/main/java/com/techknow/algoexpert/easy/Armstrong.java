@@ -1,13 +1,19 @@
 package com.techknow.algoexpert.easy;
 
+import java.util.Scanner;
+
 /**
  *
  */
 public class Armstrong {
 
     public static void main(String[] args) {
+        System.out.println("Enter the Number");
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(validArmStrong(151));
+        System.out.println(validArmStrong(Integer.parseInt(scanner.nextLine())));
+        System.out.println("Enter the UserName");
+        System.out.println(scanner.nextLine());
     }
 
     public static boolean validArmStrong(int number) {
