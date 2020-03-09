@@ -20,7 +20,10 @@ public class MaxProfit {
         }
         return maxprofit;
     }
-
+/*
+maxProfit(new int[] {7,1,5,3,6,4}));
+        System.out.println(
+ */
     public static int maxProfit1(int [] prices) {
             if (prices.length==0) return 0;
 
