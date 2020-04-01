@@ -21,7 +21,7 @@ public class BinarySearch {
         int right = array.length-1;
         Arrays.sort(array);
                 while(left <= right) {
-                    int middle = (left + right) / 2;
+                    int middle = (int) Math.floor((left + right) / 2);
                     int potentialMatch = array[middle];
 
                     if(potentialMatch == result) {
