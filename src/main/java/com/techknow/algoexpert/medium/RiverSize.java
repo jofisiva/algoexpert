@@ -8,7 +8,22 @@ public class RiverSize {
 
     public static void main(String[] args) {
 
-        int[][] matrix = { { 1, 0, 0, 1 }, { 1, 0, 1, 0 }, { 0, 0, 1, 0 }, { 1, 0, 1, 0 } };
+        /**
+         * T T T W W
+         * T W W T T
+         * T W W T T
+         * T W T T T
+         * W W T T T
+         */
+      //  int[][] matrix = { { 1, 0, 0, 1 }, { 1, 0, 1, 0 }, { 0, 0, 1, 0 }, { 1, 0, 1, 0 } };
+        int [][] matrix ={
+                {1,1,1,0,0},
+                {1,0,0,1,1},
+                { 1, 0, 0,1,1 },
+                {1,0,1,1,1},
+                {0,0,1,1,1}
+
+        };
         List<Integer> output = riverSizes(matrix);
         Collections.sort(output);
         System.out.println(output);

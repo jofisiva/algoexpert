@@ -11,8 +11,10 @@ public class CoinChange {
         ways.forEach(System.out::println);*/
 
         System.out.println();
-        System.out.println(numberWaysOfChangedp(30, new int[] {1,5,10,25}));
-        System.out.println(numberWaysOfChangedp(27, new int[] {1,5,10,25}));
+       // System.out.println(numberWaysOfChangedp(30, new int[] {1,5,10,25}));
+       // System.out.println(numberWaysOfChangedp(27, new int[] {1,5,10,25}));
+        System.out.println(numberWaysOfChangedp(7, new int[] {2,3,6,7}));
+       // System.out.println(numberWaysOfChangedp(8, new int[] {2,3,5}));
     }
 
 

@@ -1,14 +1,22 @@
 package com.techknow.algoexpert.easy;
 
-import java.util.HashMap;
-
 public class FirstNotRepeatingCharacter {
     public static void main(String[] args) {
         System.out.println(firstNotRepeatingCharacter("abacabad"));
     }
 
     static char firstNotRepeatingCharacter(String s) {
-        HashMap<Character, Integer> repeat = new HashMap<>();
+
+        for(int i=0; i<s.length(); i++) {
+
+            if (s.indexOf(s.charAt(i)) == s.lastIndexOf(s.charAt(i))) {
+                return s.charAt(i);
+            }
+        }
+
+            return '-';
+        }
+        /*HashMap<Character, Integer> repeat = new HashMap<>();
 
         for (int i = 0; i < s.length(); i++) {
 
@@ -33,5 +41,6 @@ public class FirstNotRepeatingCharacter {
         }
 
         return '-';
-    }
+    }*/
+
 }

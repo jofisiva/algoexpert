@@ -23,6 +23,7 @@ public class BranchSum {
         List<Integer> sums = new ArrayList<Integer>();
 
         calculateBranchSums(tree, 0, sums);
+        sums.stream().mapToInt(Integer::intValue).sum();
         return sums;
     }
 
